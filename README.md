@@ -7,6 +7,9 @@ Hello and welcome! This GitHub repository contains a collection of tests for a B
 ## Description of API calls and tests
 
 - Create Booking: POST method http request is used here in order to create booking data and dynamic data is used using Pre-request script. These dynamic data are saved in environment variables as well for future validation. From response body, bookingid is fetched and stored as environment variable id1.
+
+![](Pictures/Create.PNG)
+  
 - Get Booking Info: GET method http request is used here to fetch Booking data that was created before. A number of API testings are peformed for Status code validation, as well as validation of all data that is recieved in response body with stored environment variables. 
 - Token: POST method http request is used here to entry username and password data for receiving token. This token will be used as permission for updating existing data as well as deleting stored data.
 - Update Booking Info: PUT method http request is used here to override the existing Booking data with new data. For update access permission, token is entered in the header. Here static data is given as input for variation.
