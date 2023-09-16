@@ -10,12 +10,25 @@ Hello and welcome! This GitHub repository contains a collection of tests for a B
 
 ![](Pictures/Create.PNG)
   
-- Get Booking Info: GET method http request is used here to fetch Booking data that was created before. A number of API testings are peformed for Status code validation, as well as validation of all data that is recieved in response body with stored environment variables. 
+- Get Booking Info: GET method http request is used here to fetch Booking data that was created before. A number of API testings are peformed for Status code validation, as well as validation of all data that is recieved in response body with stored environment variables.
+
+![](Pictures/Get.PNG)
+  
 - Token: POST method http request is used here to entry username and password data for receiving token. This token will be used as permission for updating existing data as well as deleting stored data.
+
+![](Pictures/Token.PNG)
+  
 - Update Booking Info: PUT method http request is used here to override the existing Booking data with new data. For update access permission, token is entered in the header. Here static data is given as input for variation.
+
+![](Pictures/Update.PNG)
+  
 - Get Booking Info Updated: GET method http request is used here to fetch new Booking data. Here status code validation as well as data validation is made for the updated Booking info.
+
+![](Pictures/GetUpdate.PNG)
+  
 - Delete Booking: DELETE method http request is used here to delete the data associated with id1. For delete access permission, token is entered in the header.
 
+![](Pictures/Delete.PNG)
 
 
 ## Newman report generation
