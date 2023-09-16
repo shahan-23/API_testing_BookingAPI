@@ -38,6 +38,9 @@ At first, API collection as well as API environment is exported in a folder for 
 newman run ShahanAPI.postman_collection.json -e ShahanEnv.postman_environment.json -r cli,htmlextra 
 
 
+![](Pictures/NewmanReport.PNG)
+
+
 
 ## Usage
 
